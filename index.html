@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFIC Login</title>
+    <style>
+        /* Gradient Background */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Centered Container */
+        .container {
+            text-align: center;
+        }
+
+        /* Logo Styling */
+        .logo {
+            width: 150px;
+            height: auto;
+            animation: pulse 2s infinite alternate;
+            border-radius: 30px;
+        }
+
+        /* Logo Animation */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        /* Buttons Styling */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            font-size: 18px;
+            color: white;
+            background: #ff6b6b;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #ff4757;
+        }
+
+        .btn.employer {
+            background: #1dd1a1;
+        }
+
+        .btn.employer:hover {
+            background: #10ac84;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.jpeg" alt="GFIC Logo" class="logo">
+        <div class="buttons">
+            <a href="login.html" class="btn">Customer Login</a>
+            <a href="login.html" class="btn employer">Employer Login</a>
+        </div>
+    </div>
+
+</body>
+</html>
